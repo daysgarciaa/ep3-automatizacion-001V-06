@@ -1,0 +1,36 @@
+
+PLAY [EP3 - Aprovisionamiento RTR-FIBRNOR] *********************************************************************
+
+TASK [BACKUP - Respaldar configuracion actual] *****************************************************************
+ok: [csr1kv]
+
+TASK [BACKUP - Guardar respaldo en archivo] ********************************************************************
+ok: [csr1kv -> localhost]
+
+TASK [SERVICIOS - Habilitar NETCONF] ***************************************************************************
+ok: [csr1kv]
+
+TASK [SERVICIOS - Habilitar RESTCONF] **************************************************************************
+ok: [csr1kv]
+
+TASK [SERVICIOS - Habilitar HTTP seguro] ***********************************************************************
+ok: [csr1kv]
+
+TASK [CONFIG - Hostname corporativo] ***************************************************************************
+ok: [csr1kv]
+
+TASK [CONFIG - Banner de acceso] *******************************************************************************
+ok: [csr1kv]
+
+TASK [CONFIG - Servidor NTP] ***********************************************************************************
+ok: [csr1kv]
+
+TASK [CONFIG - Descripcion interfaz GigabitEthernet1] **********************************************************
+ok: [csr1kv]
+
+TASK [CONFIG - Crear interfaz Loopback con IP de gestion] ******************************************************
+ok: [csr1kv]
+
+PLAY RECAP *****************************************************************************************************
+csr1kv                     : ok=10   changed=0    unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
