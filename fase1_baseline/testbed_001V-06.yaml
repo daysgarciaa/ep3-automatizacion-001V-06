@@ -1,0 +1,22 @@
+testbed:
+  name: EP3_testbed
+
+devices:
+  CSR1kv:
+    alias: CSR1kv
+    type: router
+    os: iosxe
+    platform: csr1000v
+    credentials:
+      default:
+        username: cisco
+        password: cisco123!
+    connections:
+      cli:
+        class: unicon.Unicon
+        protocol: ssh
+        ip: 192.168.56.103
+        port: 22
+        arguments:
+          connection_timeout: 60
+          ssh_options: "-o KexAlgorithms=diffie-hellman-group14-sha1 -o StrictHostKeyChecking=no"
