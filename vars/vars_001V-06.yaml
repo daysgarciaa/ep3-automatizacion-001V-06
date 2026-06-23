@@ -1,10 +1,12 @@
-
+# vars/vars_001V-06.yaml
 alumno:
   codigo: "001V-06"
   nombre: "Dayana Stefania Garcia Ampuero"
+
 cliente:
   empresa: "Fibra Optica Norte SpA"
   hostname: "RTR-FIBRNOR"
+
 router:
   ip: "192.168.56.101"
   usuario: "cisco"
