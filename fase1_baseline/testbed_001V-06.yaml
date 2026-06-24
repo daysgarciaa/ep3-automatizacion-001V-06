@@ -11,12 +11,13 @@ devices:
       default:
         username: cisco
         password: cisco123!
+      enable:
+        password: cisco123!
     connections:
       cli:
         class: unicon.Unicon
         protocol: ssh
         ip: 192.168.56.103
         port: 22
-        arguments:
-          connection_timeout: 60
-          ssh_options: "-o KexAlgorithms=diffie-hellman-group14-sha1 -o StrictHostKeyChecking=no"
+        ssh_options: "-o KexAlgorithms=diffie-hellman-group14-sha1 -o StrictHostKeyChecking=no"
+        connection_timeout: 60
