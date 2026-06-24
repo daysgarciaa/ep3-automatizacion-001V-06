@@ -1,0 +1,6 @@
+
+Learning '['interface', 'platform', 'routing']' on devices '['CSR1kv']'
+[1m[31m
+failed to connect to CSR1kv
+Failed while bringing device to "any" state[0m[39m
+

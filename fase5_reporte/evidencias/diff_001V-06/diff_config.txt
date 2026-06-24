@@ -1,0 +1,14 @@
+=== DIFF BASELINE vs SNAPSHOT FINAL ===
+Alumno : 001V-06
+Fecha  : 2026-06-24 05:16:53.081105
+
+CAMBIOS DETECTADOS EN CONFIGURACION:
+[+] hostname RTR-FIBRNOR[+] RTR-FIBRNOR#[+] interface Loopback10[+] description Enlace-WAN-Temuco[+] ntp server 8.8.8.8[+] banner motd ^CACCESO RESTRINGIDO - FIBRNOR^C[+] ip address 10.1.6.1 255.255.255.0
+
+RESUMEN:
+- Hostname cambiado a: RTR-FIBRNOR
+- Loopback10 creado con IP: 10.1.6.1/24
+- Descripcion GigE1: Enlace-WAN-Temuco
+- NTP configurado: 8.8.8.8
+- Banner configurado: ACCESO RESTRINGIDO - FIBRNOR
+- NETCONF/RESTCONF habilitados

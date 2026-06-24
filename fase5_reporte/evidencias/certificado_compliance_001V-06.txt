@@ -1,0 +1,32 @@
+
+╔══════════════════════════════════════════════════════════════╗
+║          CERTIFICADO DE COMPLIANCE DE RED                    ║
+║          EP3 - DRY7122 - DUOC UC                             ║
+╚══════════════════════════════════════════════════════════════╝
+
+Fecha de emision  : 2026-06-24 05:18:14
+Alumno            : Dayana Stefania Garcia Ampuero
+Codigo            : 001V-06
+Empresa cliente   : Fibra Optica Norte SpA
+
+DISPOSITIVO CONFIGURADO
+-----------------------
+Hostname corporativo : RTR-FIBRNOR
+IP de gestion        : 10.1.6.1/24
+Descripcion WAN      : Enlace-WAN-Temuco
+Servidor NTP         : 8.8.8.8
+Banner               : ACCESO RESTRINGIDO - FIBRNOR
+
+RESULTADO POR FASE
+------------------
+Validacion NETCONF   : CONFORME
+Validacion RESTCONF  : CONFORME
+Diff baseline/final  : DETECTADO
+
+══════════════════════════════════════════════════════════════
+RESULTADO GLOBAL: CONFORME
+══════════════════════════════════════════════════════════════
+
+El equipo RTR-FIBRNOR ha sido configurado y validado exitosamente
+mediante los protocolos NETCONF y RESTCONF. Queda habilitado
+para operar en produccion para Fibra Optica Norte SpA.

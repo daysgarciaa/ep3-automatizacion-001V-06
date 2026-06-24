@@ -1,0 +1,53 @@
+[2026-06-24 04:54:06,469] +++ CSR1kv logfile evidencias/snapshot_final_001V-06/connection_CSR1kv.txt +++
+[2026-06-24 04:54:06,471] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-24 04:54:06,772] +++ connection to spawn: ssh -l cisco 192.168.56.103 -p 22, id: 140563204164096 +++
+[2026-06-24 04:54:06,773] connection to CSR1kv
+
+ACCESO RESTRINGIDO - FIBRNOR
+
+RTR-FIBRNOR#[2026-06-24 04:56:26,042] +++ CSR1kv logfile evidencias/snapshot_final_001V-06/connection_CSR1kv.txt +++
+[2026-06-24 04:56:26,042] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-24 04:56:26,235] +++ connection to spawn: ssh -l cisco 192.168.56.103 -p 22, id: 140400799054912 +++
+[2026-06-24 04:56:26,235] connection to CSR1kv
+
+ACCESO RESTRINGIDO - FIBRNOR
+
+
+RTR-FIBRNOR#[2026-06-24 04:59:45,747] +++ CSR1kv logfile evidencias/snapshot_final_001V-06/connection_CSR1kv.txt +++
+[2026-06-24 04:59:45,747] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-24 04:59:45,842] +++ connection to spawn: ssh -l cisco 192.168.56.103 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1 -o StrictHostKeyChecking=no, id: 140505814191168 +++
+[2026-06-24 04:59:45,842] connection to CSR1kv
+
+ACCESO RESTRINGIDO - FIBRNOR
+
+RTR-FIBRNOR#[2026-06-24 05:02:23,477] +++ CSR1kv logfile evidencias/snapshot_final_001V-06/connection_CSR1kv.txt +++
+[2026-06-24 05:02:23,478] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-24 05:02:23,597] +++ connection to spawn: ssh -l cisco 192.168.56.103 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1 -o StrictHostKeyChecking=no, id: 140424191450176 +++
+[2026-06-24 05:02:23,597] connection to CSR1kv
+
+ACCESO RESTRINGIDO - FIBRNOR
+
+
+RTR-FIBRNOR#[2026-06-24 05:05:40,239] +++ CSR1kv logfile evidencias/snapshot_final_001V-06/connection_CSR1kv.txt +++
+[2026-06-24 05:05:40,239] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-24 05:05:40,368] +++ connection to spawn: ssh -l cisco 192.168.56.103 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1 -o StrictHostKeyChecking=no, id: 139974678539136 +++
+[2026-06-24 05:05:40,368] connection to CSR1kv
+
+ACCESO RESTRINGIDO - FIBRNOR
+
+
+RTR-FIBRNOR#[2026-06-24 05:09:01,987] +++ CSR1kv logfile evidencias/snapshot_final_001V-06/connection_CSR1kv.txt +++
+[2026-06-24 05:09:01,988] +++ Unicon plugin iosxe +++
+Password: 
+[2026-06-24 05:09:02,169] +++ connection to spawn: ssh -l cisco 192.168.56.103 -p 22 -o KexAlgorithms=diffie-hellman-group14-sha1 -o StrictHostKeyChecking=no, id: 140306691599424 +++
+[2026-06-24 05:09:02,169] connection to CSR1kv
+
+ACCESO RESTRINGIDO - FIBRNOR
+
+
+RTR-FIBRNOR#
